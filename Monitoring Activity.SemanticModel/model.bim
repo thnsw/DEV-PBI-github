@@ -682,6 +682,11 @@
             "name": "_TESTJET",
             "expression": "IF(MAX('Monitoring Solutions'[SolutionType_Id]) = 1, \"Internal\", IF(MAX('Monitoring Solutions'[SolutionType_Id]) = 2, \"Custommer\", \"Undefined\"))",
             "lineageTag": "80fb0ba5-c3de-44ec-b397-1b66f3db100f"
+          },
+          {
+            "name": "test",
+            "expression": "\"test measure\"",
+            "lineageTag": "be988385-b30f-4d13-801b-a15596237749"
           }
         ],
         "partitions": [
