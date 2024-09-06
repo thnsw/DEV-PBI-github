@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "Report",
-    "displayName": "Monitoring Activity"
+    "displayName": "github-testing"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "f0c0c392-e058-4179-9123-119dd2f82749"
+    "logicalId": "b765fe2c-18a1-4fa1-81ec-fa283b2c02ae"
   }
 }

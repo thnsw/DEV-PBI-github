@@ -1,0 +1,936 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Model\",\"Model (2)\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.132.1053.0 (24.08)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "da-DK",
+    "tables": [
+      {
+        "name": "Model",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Account.AccountID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "662739ed-a08c-419d-93a0-3e861c233a5f",
+            "sourceColumn": "Account.AccountID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.AccountName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cff45370-b8ca-474a-9a9c-26c3eec464b6",
+            "sourceColumn": "Account.AccountName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.AccountType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f50ed1f5-540b-48d9-8081-ab271305b209",
+            "sourceColumn": "Account.AccountType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.CoMAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "96553ef4-4d2e-446b-b40b-4efe5d04e3f1",
+            "sourceColumn": "Account.CoMAccount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.CoYAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c42cbd2-aeba-4f34-8587-eca4a5c1db25",
+            "sourceColumn": "Account.CoYAccount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.CurAdjAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9fc1eb12-2e99-4c76-835f-37ced2728dbe",
+            "sourceColumn": "Account.CurAdjAccount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.CurAdjFutureAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "72fa6c2f-6b75-485f-8a59-ab13db91bb9e",
+            "sourceColumn": "Account.CurAdjFutureAccount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.CurAdjFutureYearAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6696b561-4696-44c9-aa0d-59367e65d634",
+            "sourceColumn": "Account.CurAdjFutureYearAccount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.ExchangeType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8305caa7-604d-4c73-8261-aee139c325dd",
+            "sourceColumn": "Account.ExchangeType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.MovementtypeMap",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ad60dfa-3394-4715-9efd-853ec20b88f0",
+            "sourceColumn": "Account.MovementtypeMap",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.ReportSign",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e8280b88-f82a-4274-b65c-03d2613b953e",
+            "sourceColumn": "Account.ReportSign",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b892b980-8df9-4e2c-a4ae-07e57c37c781",
+            "sourceColumn": "Account.Account ExternalNivName1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f49f82a1-3e2c-49e4-973b-18497c6d83e6",
+            "sourceColumn": "Account.Account ExternalNivName2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8bbcfa0-c123-4a7a-8406-b9fe67da8989",
+            "sourceColumn": "Account.Account ExternalNivName3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "95bc10bc-33d6-42fd-9da5-99af1a0fe090",
+            "sourceColumn": "Account.Account ExternalNivName4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0714bfe-99e3-4f9d-93c2-d44487f3952a",
+            "sourceColumn": "Account.Account ExternalNivName5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dfb0259b-bfbe-4880-86e1-aaa16659808a",
+            "sourceColumn": "Account.Account ExternalNivName6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName7",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e89d29f-9519-45f3-a527-c33f9cd2ea3c",
+            "sourceColumn": "Account.Account ExternalNivName7",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName8",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b844a303-4d23-4f88-91ab-05044f42ae2a",
+            "sourceColumn": "Account.Account ExternalNivName8",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName9",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f5100af-522f-4ea4-87f1-641c9d57810b",
+            "sourceColumn": "Account.Account ExternalNivName9",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName10",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "32f9c5fd-a997-484c-9b8f-c96b4d95b902",
+            "sourceColumn": "Account.Account ExternalNivName10",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3bf69140-9184-4d8f-989c-4197c8a4964b",
+            "sourceColumn": "Account.Account ExternalNivName11",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName13",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "251f7677-6adc-43d3-a506-7258d9151023",
+            "sourceColumn": "Account.Account ExternalNivName13",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account ExternalNivName12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94d41403-bfe7-4c20-a34f-d2db2c7bf51b",
+            "sourceColumn": "Account.Account ExternalNivName12",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1714a96a-4701-4835-ba85-d7e3598b6a29",
+            "sourceColumn": "Account.Account InternalNivName1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7753bd29-7899-43ed-bcc9-6c3d9b119ec0",
+            "sourceColumn": "Account.Account InternalNivName2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "97cdbd69-90ca-4fe1-acd9-905f6cd8a5ec",
+            "sourceColumn": "Account.Account InternalNivName3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6e051978-89dd-446b-a303-a3b3f7ab6953",
+            "sourceColumn": "Account.Account InternalNivName4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d981f92a-efce-4dab-859d-ef1869db2be0",
+            "sourceColumn": "Account.Account InternalNivName5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88da7339-7877-4ce5-a56b-71eb5e304dea",
+            "sourceColumn": "Account.Account InternalNivName6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName7",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de83c003-193c-4e6c-9b36-915d4ef15701",
+            "sourceColumn": "Account.Account InternalNivName7",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName8",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c051df5-41b0-4f0c-b38c-e8a13e9fdbb5",
+            "sourceColumn": "Account.Account InternalNivName8",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName9",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9794e3dc-d1f4-4890-b34f-1980be05d6ae",
+            "sourceColumn": "Account.Account InternalNivName9",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName10",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85cb50b5-bb51-4a1c-9e3f-0c41d3a722dd",
+            "sourceColumn": "Account.Account InternalNivName10",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7c4e2e2-daa4-42ba-9a90-116a5138b290",
+            "sourceColumn": "Account.Account InternalNivName11",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03060211-035f-4ea6-a4da-cb9a8d8325fb",
+            "sourceColumn": "Account.Account InternalNivName12",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account.Account InternalNivName13",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "29bd17ec-f2af-4bdf-ae51-65a4cf5e6cf7",
+            "sourceColumn": "Account.Account InternalNivName13",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d58ffd99-14e0-4796-9c51-467706d07f50",
+        "partitions": [
+          {
+            "name": "Model",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = AnalysisServices.Databases(\"powerbi://api.powerbi.com/v1.0/myorg/Github%20testing%20ground\", [TypedMeasureColumns=true, Implementation=\"2.0\"]),",
+                "    #\"Power BI Dataset\" = Source{[Name=\"Power BI Dataset\"]}[Data],",
+                "    Model1 = #\"Power BI Dataset\"{[Id=\"Model\"]}[Data],",
+                "    Model2 = Model1{[Id=\"Model\"]}[Data],",
+                "    #\"Added Items\" = Cube.Transform(Model2,",
+                "        {",
+                "            {Cube.AddAndExpandDimensionColumn, \"[Account]\", {\"[Account].[AccountID].[AccountID]\", \"[Account].[AccountName].[AccountName]\", \"[Account].[AccountType].[AccountType]\", \"[Account].[CoMAccount].[CoMAccount]\", \"[Account].[CoYAccount].[CoYAccount]\", \"[Account].[CurAdjAccount].[CurAdjAccount]\", \"[Account].[CurAdjFutureAccount].[CurAdjFutureAccount]\", \"[Account].[CurAdjFutureYearAccount].[CurAdjFutureYearAccount]\", \"[Account].[ExchangeType].[ExchangeType]\", \"[Account].[MovementtypeMap].[MovementtypeMap]\", \"[Account].[ReportSign].[ReportSign]\", \"[Account].[Account External].[Account ExternalNivName1]\", \"[Account].[Account External].[Account ExternalNivName2]\", \"[Account].[Account External].[Account ExternalNivName3]\", \"[Account].[Account External].[Account ExternalNivName4]\", \"[Account].[Account External].[Account ExternalNivName5]\", \"[Account].[Account External].[Account ExternalNivName6]\", \"[Account].[Account External].[Account ExternalNivName7]\", \"[Account].[Account External].[Account ExternalNivName8]\", \"[Account].[Account External].[Account ExternalNivName9]\", \"[Account].[Account External].[Account ExternalNivName10]\", \"[Account].[Account External].[Account ExternalNivName11]\", \"[Account].[Account External].[Account ExternalNivName13]\", \"[Account].[Account External].[Account ExternalNivName12]\", \"[Account].[Account Internal].[Account InternalNivName1]\", \"[Account].[Account Internal].[Account InternalNivName2]\", \"[Account].[Account Internal].[Account InternalNivName3]\", \"[Account].[Account Internal].[Account InternalNivName4]\", \"[Account].[Account Internal].[Account InternalNivName5]\", \"[Account].[Account Internal].[Account InternalNivName6]\", \"[Account].[Account Internal].[Account InternalNivName7]\", \"[Account].[Account Internal].[Account InternalNivName8]\", \"[Account].[Account Internal].[Account InternalNivName9]\", \"[Account].[Account Internal].[Account InternalNivName10]\", \"[Account].[Account Internal].[Account InternalNivName11]\", \"[Account].[Account Internal].[Account InternalNivName12]\", \"[Account].[Account Internal].[Account InternalNivName13]\"}, {\"Account.AccountID\", \"Account.AccountName\", \"Account.AccountType\", \"Account.CoMAccount\", \"Account.CoYAccount\", \"Account.CurAdjAccount\", \"Account.CurAdjFutureAccount\", \"Account.CurAdjFutureYearAccount\", \"Account.ExchangeType\", \"Account.MovementtypeMap\", \"Account.ReportSign\", \"Account.Account ExternalNivName1\", \"Account.Account ExternalNivName2\", \"Account.Account ExternalNivName3\", \"Account.Account ExternalNivName4\", \"Account.Account ExternalNivName5\", \"Account.Account ExternalNivName6\", \"Account.Account ExternalNivName7\", \"Account.Account ExternalNivName8\", \"Account.Account ExternalNivName9\", \"Account.Account ExternalNivName10\", \"Account.Account ExternalNivName11\", \"Account.Account ExternalNivName13\", \"Account.Account ExternalNivName12\", \"Account.Account InternalNivName1\", \"Account.Account InternalNivName2\", \"Account.Account InternalNivName3\", \"Account.Account InternalNivName4\", \"Account.Account InternalNivName5\", \"Account.Account InternalNivName6\", \"Account.Account InternalNivName7\", \"Account.Account InternalNivName8\", \"Account.Account InternalNivName9\", \"Account.Account InternalNivName10\", \"Account.Account InternalNivName11\", \"Account.Account InternalNivName12\", \"Account.Account InternalNivName13\"}}",
+                "        })",
+                "in",
+                "    #\"Added Items\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_e0990016-c8d3-4710-8168-45a06c215cbb",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "cc50c2d0-812b-4a6a-932b-971b20072cf8",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9da4d324-69a1-4308-b0f9-ac87a80d02bd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "99d5518c-1a3e-4ef5-a86b-df7f69113bf0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "13871811-2f52-4ab3-8f86-8257459fa94d",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5fc938ee-2f1d-4cdb-887f-84e700e9fa2c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "06707eca-7756-4fd0-83fe-6f1dc896b44b",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7af015ce-1142-4ba4-9d6d-7d55ec118f57",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "278c9843-cb2f-4be0-a043-44e1208d8c33",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "615fe630-6a93-46fc-a1cf-38ca92691733",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "9dcc14ba-523c-482b-8687-c76f4efdbdfd",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "c6313dc7-1bb9-4fdf-a8b0-37d87610a6d4",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "23238c5b-3fd2-4960-84cf-c1ff6c0f2f3d"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "52de639e-3d1a-4cd3-8fec-9ceedf2a030c",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_e0990016-c8d3-4710-8168-45a06c215cbb",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Model (2)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DKK",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "663e1214-366a-4a75-92f4-2419efe9be5d",
+            "sourceColumn": "DKK",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Local",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5f094076-5b49-4154-a929-a95fc7e44cd4",
+            "sourceColumn": "Local",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tLocal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "31964994-c8eb-45d6-b87c-26805a6c9515",
+            "sourceColumn": "tLocal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tDKK",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "138dcf1e-694c-4423-a088-f65b14805a40",
+            "sourceColumn": "tDKK",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Value DKK",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d75293f0-b888-4f3e-8f81-91b22b495759",
+            "sourceColumn": "Value DKK",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Value Local",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "99caeb62-628d-466d-afcf-b009fedcfc2d",
+            "sourceColumn": "Value Local",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Value Transaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "93bb9cc3-de5f-4aae-ac6d-89348df9e120",
+            "sourceColumn": "Value Transaction",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "237b5d9d-be0e-4472-a0f7-d8143723546e",
+        "partitions": [
+          {
+            "name": "Model (2)",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = AnalysisServices.Databases(\"powerbi://api.powerbi.com/v1.0/myorg/Github%20testing%20ground\", [TypedMeasureColumns=true, Implementation=\"2.0\"]),",
+                "    #\"Power BI Dataset\" = Source{[Name=\"Power BI Dataset\"]}[Data],",
+                "    Model1 = #\"Power BI Dataset\"{[Id=\"Model\"]}[Data],",
+                "    Model2 = Model1{[Id=\"Model\"]}[Data],",
+                "    #\"Added Items\" = Cube.Transform(Model2,",
+                "        {",
+                "            {Cube.AddMeasureColumn, \"DKK\", \"[Measures].[DKK]\"},",
+                "            {Cube.AddMeasureColumn, \"Local\", \"[Measures].[Local]\"},",
+                "            {Cube.AddMeasureColumn, \"tLocal\", \"[Measures].[tLocal]\"},",
+                "            {Cube.AddMeasureColumn, \"tDKK\", \"[Measures].[tDKK]\"},",
+                "            {Cube.AddMeasureColumn, \"Value DKK\", \"[Measures].[Value DKK]\"},",
+                "            {Cube.AddMeasureColumn, \"Value Local\", \"[Measures].[Value Local]\"},",
+                "            {Cube.AddMeasureColumn, \"Value Transaction\", \"[Measures].[Value Transaction]\"}",
+                "        })",
+                "in",
+                "    #\"Added Items\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
