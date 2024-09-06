@@ -2,7 +2,7 @@
   "version": "4.0",
   "datasetReference": {
     "byPath": {
-      "path": "../Monitoring Activity.SemanticModel"
+      "path": "../github-testing.SemanticModel"
     },
     "byConnection": null
   }

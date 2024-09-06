@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "647c3f80ad00e9870ac1",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3a422b9e833aba62773b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.840746842394289,\"y\":0,\"z\":0,\"width\":499.7693574958814,\"height\":608.720483250961,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Model.Account.AccountName\"},{\"queryRef\":\"Sum(Model (2).DKK)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m1\",\"Entity\":\"Model (2)\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Model\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"DKK\"}},\"Function\":0},\"Name\":\"Sum(Model (2).DKK)\",\"NativeReferenceName\":\"Sum of DKK\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Account.AccountName\"},\"Name\":\"Model.Account.AccountName\",\"NativeReferenceName\":\"Account.AccountName\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 608.72,
+          "width": 499.77,
+          "x": 9.84,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

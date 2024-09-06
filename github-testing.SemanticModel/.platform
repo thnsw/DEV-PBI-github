@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "SemanticModel",
-    "displayName": "Monitoring Activity"
+    "displayName": "github-testing"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "5af2bbe0-6860-462f-a1b0-a83ed26cd357"
+    "logicalId": "eef142bb-03c7-47ff-84ea-e52c42417375"
   }
 }
